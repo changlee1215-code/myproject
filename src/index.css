@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --chart-text: #6b7280;
+  --chart-grid: #f3f4f6;
+  --chart-bg: #ffffff;
+  --chart-tooltip-text: #374151;
+}
+
+.dark {
+  --chart-text: #9ca3af;
+  --chart-grid: #374151;
+  --chart-bg: #1f2937;
+  --chart-tooltip-text: #f3f4f6;
+}
